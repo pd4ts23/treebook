@@ -1,4 +1,6 @@
 class StatusesController < ApplicationController
+
+  before_filter :authenticate_user!, only: [:new]
   # GET /statuses
   # GET /statuses.json
   def index
@@ -20,6 +22,7 @@ class StatusesController < ApplicationController
       format.json { render json: @status }
     end
   end
+
 
   # GET /statuses/new
   # GET /statuses/new.json
