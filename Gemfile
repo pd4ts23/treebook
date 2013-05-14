@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3', :group => [:development, :test]
 
+gem 'pg', :group ; =>[:production]
 gem 'devise'
 gem 'simple_form'
 
