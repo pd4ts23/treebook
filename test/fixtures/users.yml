@@ -10,3 +10,9 @@ michael:
     last_name: "Kay"
     email: "kayjame23@gmail.com"
     profile_name: "michaelkay"
+
+mike: 
+    first_name: "Mike"
+    last_name: "The Frog"
+    email: "mikethefrog@gmail.com"
+    profile_name: "mikethefrog"
